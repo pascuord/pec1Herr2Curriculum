@@ -7,20 +7,20 @@
  * Import variables
  */
 
-@import 'abstracts/variables';
+@import 'abstracts/variables.scss';
 
 /**
  * Import variables
  */
 
-@import 'base/typography';
+@import 'base/typography.scss';
 
 
 /*
  * Import mixins
  */
 
-@import 'abstracts/mixins';
+@import 'abstracts/mixins.scss';
 
 /**
  * Import npm dependencies
@@ -36,15 +36,15 @@
  * It's a best practice to use a different partial for each page
  */
 
-@import 'layouts/nav';
+@import 'layouts/nav.scss';
 
-@import 'layouts/header';
+@import 'layouts/header.scss';
 
 /**
  * Import pages
  */
  
-@import 'pages/home';
+@import 'pages/home.scss';
 
 /**
  * Do NOT include anything else in this file!
