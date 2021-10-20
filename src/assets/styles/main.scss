@@ -7,7 +7,20 @@
  * Import variables
  */
 
-@import "variables";
+@import 'abstracts/variables';
+
+/**
+ * Import variables
+ */
+
+@import 'base/typography';
+
+
+/*
+ * Import mixins
+ */
+
+@import 'abstracts/mixins';
 
 /**
  * Import npm dependencies
@@ -15,15 +28,23 @@
  * see commented examples below
  */
 
-// @import "some-node-module";
-// @import "@some-company/some-node-module";
+// @import 'some-node-module';
+// @import '@some-company/some-node-module';
 
 /**
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
 
-@import "layouts/home";
+@import 'layouts/nav';
+
+@import 'layouts/header';
+
+/**
+ * Import pages
+ */
+ 
+@import 'pages/home';
 
 /**
  * Do NOT include anything else in this file!

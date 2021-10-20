@@ -1,0 +1,8 @@
+@mixin styleUl($margin_value:10px,$padding_value:10px,$bgcolor_value:#fff,$box_shadow_value:5px -4px 10px #808080) { 
+  background-color: $bgcolor_value;
+  box-shadow: $box_shadow_value;
+  list-style: none;
+  margin: $margin_value;
+  padding: $padding_value;
+  text-align: left;
+}

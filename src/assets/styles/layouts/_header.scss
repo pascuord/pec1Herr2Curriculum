@@ -1,0 +1,16 @@
+.header {
+  background-color: #6ac96a;
+  padding: 10px 10px 80px;
+  @media screen and (max-width:600px) {
+    padding: 10px 10px 20px;      
+  }
+
+  &__title {
+    color: #fff;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+
+  }
+}

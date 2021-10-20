@@ -1,0 +1,14 @@
+@use 'sass:color';
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik&display=swap');
+
+$font-family-anton: 'Anton', sans-serif;
+$font-family-rubik: 'Rubik', sans-serif;
+
+$color-background-header: #6ac96a;
+$color-white: #fff;
+$cv-corporate: #353535;
+$cv-masterbrand: #000;
+$cv-bg: color.scale($cv-masterbrand, $lightness: 10%);
+
+$media-with: 420px;

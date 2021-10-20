@@ -1,0 +1,15 @@
+.nav {
+  &__ul {
+    @include styleUl(0,0,$color-background-header,none);
+  }
+
+  &__li {
+    display: inline-block;
+  }
+
+  &__a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}

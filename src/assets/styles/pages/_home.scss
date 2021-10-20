@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  background-color: $cv-bg;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 2rem;
+}
+
+.page__inner {
+  background-color: #ddd;
+  box-shadow: 0 0 30px #c5c5c5;
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+.article {
+  margin: auto;
+  width: 80%;
+
+  &__ul {
+    @include styleUl;
+  }
+
+  &__li {
+    display: block;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+  }
+}
